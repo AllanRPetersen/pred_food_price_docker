@@ -50,6 +50,6 @@ def predict(value, portion_size, protein, fat, carb, sugar, sodium, calcium,
 
     prediction_1 = prediction[0][0].tolist()
 
-    response = {'Prediction': prediction_1}
+    #response = {'Prediction': prediction_1}
 
-    return response
+    return prediction_1
